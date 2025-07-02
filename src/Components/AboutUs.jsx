@@ -3,7 +3,7 @@ import HeiStudents from "../assets/A-propos-left-1.webp";
 const AboutUs=()=>{
 return(
     <>
-    <div className="flex flex-col md:flex-row items-center md:justify-around p-20 space-x-20">
+    <section className="flex flex-col md:flex-row items-center md:justify-around p-20 space-x-20">
         <div className="w-1/2 hidden md:block"><img src={HeiStudents} alt="HeiStudents" /></div>
         <div className="flex flex-col space-y-4 w-full md:w-1/2 ">
             <div className="text-blue-950 text-4xl font-bold"><h1>À propos de nous</h1></div>
@@ -34,7 +34,7 @@ return(
 
         
 
-    </div>
+    </section>
     </>
 );
 };
