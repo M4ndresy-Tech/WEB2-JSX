@@ -17,7 +17,7 @@ const Header = () => {
           <div className="cursor-pointer hover:text-amber-400">ACTUALITÉS</div>
           <div className="cursor-pointer hover:text-amber-400">BOURSE D'ÉTUDES</div>
           <div className="cursor-pointer hover:text-amber-400">INSCRIPTION</div>
-          <button className="bg-amber-400 text-blue-950 rounded px-4 py-2 hover:text-blue-950">
+          <button className="bg-amber-400 text-amber-50 rounded px-4 py-2 hover:text-blue-950">
             INTRANET
           </button>
         </div>
