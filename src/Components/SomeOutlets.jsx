@@ -1,5 +1,5 @@
 import React from "react";
-import ASmilingGirl from"../assets/IMG-02-e1720543344824-987x1024-1.webp"
+import ASmilingGirl from"../assets/IMG-02-e1720543344824-987x1024-1.webp";
 const SomeOutlets =()=>{
     return(
         <>
