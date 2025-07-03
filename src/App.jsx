@@ -1,30 +1,29 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import Header from './Components/Header'
-import AboutUs from './Components/AboutUs'
-import SomeOutlets from './Components/SomeOutlets'
-import Declaration_ from 'postcss/lib/declaration';
-import Domain from './Components/Domain'
-import Admission from './Components/Admission'
-import Pedagogique from './Components/pedagogique'
+import { useState } from 'react';
+import './App.css';
+import Header from './Components/Header';
+import AboutUs from './Components/AboutUs';
+import SomeOutlets from './Components/SomeOutlets';
+import Domain from './Components/Domain';
+import Admission from './Components/Admission';
+import Pedagogique from './Components/pedagogique';
+import KeyBoardSlider from './Components/KeyBoardSlider';
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <>
-   <Header/>
-   <AboutUs/>
-   <SomeOutlets/>
-   <Domain/>
-   <Admission/>
-   <Pedagogique/>
-
-    
-    </> 
+      <Header />
+      <main>
+        <KeyBoardSlider />
+        <AboutUs />
+        <SomeOutlets />
+        <Domain />
+        <Admission />
+        <Pedagogique />
+      </main>
+    </>
   );
 }
 
-export default App
+export default App;
