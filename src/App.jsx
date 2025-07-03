@@ -8,6 +8,7 @@ import SomeOutlets from './Components/SomeOutlets'
 import Declaration_ from 'postcss/lib/declaration';
 import Domain from './Components/Domain'
 import Admission from './Components/Admission'
+import Pedagogique from './Components/pedagogique'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,6 +20,7 @@ function App() {
    <SomeOutlets/>
    <Domain/>
    <Admission/>
+   <Pedagogique/>
 
     
     </> 
