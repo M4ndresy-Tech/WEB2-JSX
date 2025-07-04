@@ -7,6 +7,7 @@ import Domain from './Components/Domain';
 import Admission from './Components/Admission';
 import Pedagogique from './Components/pedagogique';
 import KeyBoardSlider from './Components/KeyBoardSlider';
+import TeachersSlider from './Components/TeachersSlider';
 
 function App() {
 
@@ -16,10 +17,12 @@ function App() {
       <main>
         <KeyBoardSlider />
         <AboutUs />
+        <TeachersSlider/>
         <SomeOutlets />
         <Domain />
         <Admission />
         <Pedagogique />
+        
       </main>
     </>
   );

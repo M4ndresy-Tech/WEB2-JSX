@@ -7,14 +7,19 @@
 
 }
 .slideClass {
-  background-size: cover;
+  background-size:cover;
   background-position: center;
   background-repeat: no-repeat;
   background-blend-mode: darken;
 }
+.swiper-button-next,
+.swiper-button-prev {
+  color: white !important;
+  font-size: small;
+}
 
-.logo {
-  height: 6em;
+
+.slideClem{
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
