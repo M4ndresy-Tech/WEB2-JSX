@@ -2,7 +2,7 @@ import React from "react";
 const Admission=()=>{
     return(
         <>
-        <section className="bg-indigo-400 ">
+        <section className="bg-indigo-400 py-10">
             <div>
                 <div className="text-white text-5xl font-bold text-center"><h1>Admission</h1></div>
                 <div className="text-white text-lg w-full text-center"><p>Ouverte aux bacheliers de toutes les séries, l’admission chez HEI se fait par test de niveau :<br/>une épreuve de français niveau B2 et d’une épreuve de mathématiques niveau Terminale D. </p></div>
