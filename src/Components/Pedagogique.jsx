@@ -15,7 +15,7 @@ const Pedagogique= ()=> {
                 notre formation repose sur un programme pédagogique conçu en adéquation avec les attentes du marché.
                  La formation est sanctionnée par un diplôme de Licence et de Master en Informatique reconnu par le MESupRes de Madagascar.</p></div>
                  <div className="">  
-                    <button className="text-2xl text-blue-950 font-bold m-auto border-2 border-b-blue-950 hover:bg-blue-950 hover:text-white p-2 rounded ">Notre programme</button></div>
+                    <button className="text-2xl text-blue-950 font-bold m-auto border-4 border-b-blue-950 hover:bg-blue-950 hover:text-white p-2 rounded ">Notre programme</button></div>
          </div>
         </div>
 
