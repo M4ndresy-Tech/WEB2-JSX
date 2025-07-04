@@ -15,7 +15,7 @@ const Technos = () => {
   return (
     <>
     <section className="bg-gray-100 py-12 px-4">
-      <h2 className="text-5xl font-bold text-center text-blue-950 mb-6 w-full ">
+      <h2 className="text-5xl font-bold text-center text-blue-950 mb-6 w-full">
         Les technos et langages utilisées
       </h2>
       <p className="max-2xl mx-45 text-center text-blue-950 text-lg ">
