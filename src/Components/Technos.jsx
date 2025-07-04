@@ -38,7 +38,7 @@ const Technos = () => {
                 <img src={aws} alt="AWS" className="h-10 mx-auto" />
                 <img src={serverless} alt="Serverless" className="h-13 mx-auto" />
                 <img src={reac} alt="React" className="h-13 mx-auto" />
-                <img src={openapi} alt="OpenAPI" className="h-18 mx-auto" />
+                <img src={openapi} alt="openapi" className="h-18 mx-auto" />
             </div>
         </div>
     </section>
