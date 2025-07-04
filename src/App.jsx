@@ -9,7 +9,6 @@ import Pedagogique from './Components/pedagogique';
 import KeyBoardSlider from './Components/KeyBoardSlider';
 
 function App() {
-  const [count, setCount] = useState(0);
 
   return (
     <>
