@@ -8,7 +8,11 @@ import SomeOutlets from './Components/SomeOutlets'
 import Declaration_ from 'postcss/lib/declaration';
 import Domain from './Components/Domain'
 import Admission from './Components/Admission'
-import Pedagogique from './Components/pedagogique'
+import Pedagogique from './Components/Pedagogique'
+import Technos from './Components/Technos'
+import Partner from './Components/Partner'
+import Hei from './Components/Footer'
+import Footer from './Components/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -21,6 +25,10 @@ function App() {
    <Domain/>
    <Admission/>
    <Pedagogique/>
+   <Technos/>
+   <Partner/>
+   <Footer/>
+   
 
     
     </> 
