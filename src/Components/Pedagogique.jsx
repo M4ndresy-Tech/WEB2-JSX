@@ -1,5 +1,5 @@
 import React from "react";
-import towStudents from "../assets/IMG-03-e1720537524581-1024x950-1.webp"
+import towStudents from "../assets/IMG-03-e1720537524581-1024x950-1.webp";
 import img1 from "../assets/Mask-group-1.webp";
 import img2 from "../assets/Mask-group-2.webp";
 import img3 from "../assets/Mask-group-3.webp";
