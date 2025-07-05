@@ -1,8 +1,8 @@
 import React from "react";
-import Hei from "../assets/Hei.png"
-import Facebook from "../assets/icons8-facebook-50.png"
-import Instagram from "../assets/instagram-circle.png"
-import Linkedin from "../assets/icons8-linkedin-50.png"
+import Hei from "../assets/Hei.png";
+import Facebook from "../assets/icons8-facebook-50.png";
+import Instagram from "../assets/instagram-circle.png";
+import Linkedin from "../assets/icons8-linkedin-50.png";
 const Footer = () => {
   return (
     <>
