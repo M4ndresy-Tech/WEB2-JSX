@@ -30,7 +30,7 @@ const slides = [
 const KeyBoardSlider = () => {
   const [current, setCurrent] = useState(0);
 
-  // Auto change slide every 5 seconds
+  
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrent((prev) => (prev + 1) % slides.length);
@@ -38,7 +38,7 @@ const KeyBoardSlider = () => {
     return () => clearInterval(interval);
   }, []);
 
-  // Navigation with keyboard arrows
+  
   useEffect(() => {
     const handleKey = (e) => {
       if (e.key === "ArrowRight") {
@@ -51,7 +51,7 @@ const KeyBoardSlider = () => {
     return () => window.removeEventListener("keydown", handleKey);
   }, []);
 
-  // Changer manuellement avec les flèches
+  
   const goToSlide = (index) => {
     setCurrent(index);
   };
