@@ -6,7 +6,7 @@ const Header = () => {
     <header className="w-full bg-blue-950 py-4">
       <nav className="max-w-screen-xl mx-auto px-4 flex flex-col items-center md:flex-row md:justify-between">
         
-        {/* Logo centré sur mobile, à gauche sur desktop */}
+        
         <div className="mb-4 md:mb-0">
           <img src={logo} alt="Logo HEI" className="w-24 h-auto mx-auto md:mx-0" />
         </div>
